@@ -1,6 +1,6 @@
 # Business Inteligence Examproject.
 
-
+# ---------------STAGE 1-------------------
 
 # The Effect of deforestation.
 
@@ -42,3 +42,15 @@ So I have decided to gather some data, about defoestation, urbanization, populat
 I am a firm believer in sience. And most sience suggest that we are on a sippery slope when it comes to earths healt and its ecosystmes. I strongly believe that the best way to fight global conesquenses is to be more mindfull of our green areas. But i also believe that we could balance a lot of it out with technologies. 
 
 I expect my findings to back up this claim. That more people, more urbanization and more deforestation will result in a more poluted air. But as we see funding for research go up, we will see a small dip in the air polution. 
+
+
+# ---------------STAGE 2-------------------
+In Stage two I added a small story for the data, with a few images and graphs showing the evolution of the population in EU since, 1950 till 2020 and the evolution of CO2pmm in the same period. To see if there could be any sort of corrolation. 
+
+My findings using the graphs shows that, during the boom in the 50's and 90's the population grew greatly. When we look closer at the two grahps we can see the soft curve of both follwoing each other in synch. 
+
+The interresting information to gain from these graphs is, how the population slowly flatlines but the CO2pmm keeps its slope coefficient. 
+
+![alt text](FullGrapph.png)
+
+# ---------------STAGE 2-------------------
