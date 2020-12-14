@@ -53,4 +53,22 @@ The interresting information to gain from these graphs is, how the population sl
 
 ![alt text](FullGrapph.png)
 
-# ---------------STAGE 2-------------------
+# ---------------STAGE 3-------------------
+
+# Machine Learning
+
+On stage 3 I wanted to add a small prediction model for the story. On the final page of the story, I have added a small input field, that accepts a "Year" parameter. It is connected to a notebook python project through tapby (running in an anaconda terminal).
+all connected methods can be seen on localhost:9004.
+
+When entering a Year, the field below will return the anwser with the expected CO2ppm for that year. 
+
+
+Ex. Year 2050 will have CO2ppm of ~449ppm
+
+![Calc text](Imageofcalculator.png)
+
+The python code is available in the "Linear Calculation of CO2.ipynb" file.
+
+# AI Watson appplication
+
+
