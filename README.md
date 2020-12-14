@@ -65,7 +65,7 @@ When entering a Year, the field below will return the anwser with the expected C
 
 Ex. Year 2050 will have CO2ppm of ~449ppm
 
-![Calc text](Imageofcalculator.png)
+![Calc text](imageofcalculator.PNG)
 
 The python code is available in the "Linear Calculation of CO2.ipynb" file.
 
