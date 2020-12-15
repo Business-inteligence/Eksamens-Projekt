@@ -71,4 +71,28 @@ The python code is available in the "Linear Calculation of CO2.ipynb" file.
 
 # AI Watson appplication
 
+For the AI module I aimed to add a Watson Chat assistant, that could access https://api-docs.iqair.com/ which is a public api that you can call for you local weather forcast and air pollution. The intend was to also connect it to my Machinelearning program, allowing people to ask Watson bout the predicted PPM for decired year - Which would have been nice to include in my project. 
+
+Sadly I could not manage to connect my Flask web application with my Watson assistant. 
+
+Watson is able to call external API's and return handled data as a chat respond for the user. 
+The watson assisant "Zeue" Is created on IBM's cloud service https://eu-gb.assistant.watson.cloud.ibm.com .
+
+The Flask application has been hosted on Heroku, https://dashboard.heroku.com/apps/weather-app-adj
+
+Illustion of my Intent 
+
+![Illu text](Watson-App-illu.png) 
+1. Watson greets the user.
+2. The user starts a dialog with watson
+3. Watson asks for Intent
+4. The user provides watson with an awnser, and watson saves the slot.
+5. Watson uses the data in it that slot to send a request to my webapplication
+6. A string of data is returned to watson
+7. Watson forwards the result as an awser to the user as a chat reply.
+
+With more envoinmental data, a watson app could be purposed for users to figure out what their situation is like when it comes to pollution in their country or their local area. Should the concider more or less habits of CO2 emmssion. Could be a fast way to help people get a more approachble door into more green habits. 
+
+# ---------------STAGE 4-------------------
+
 
