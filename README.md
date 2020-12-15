@@ -2,7 +2,7 @@
 
 # ---------------STAGE 1-------------------
 
-# The Effect of deforestation.
+# Business Case Foundation
 
 
 During the fires in the Amazon rainforest in 2019, 9,060 km<sup>2</sup> of jungle was burned down in matter of months.
@@ -45,6 +45,7 @@ I expect my findings to back up this claim. That more people, more urbanization 
 
 
 # ---------------STAGE 2-------------------
+#  Business Data Storytelling
 In Stage two I added a small story for the data, with a few images and graphs showing the evolution of the population in EU since, 1950 till 2020 and the evolution of CO2pmm in the same period. To see if there could be any sort of corrolation. 
 
 My findings using the graphs shows that, during the boom in the 50's and 90's the population grew greatly. When we look closer at the two grahps we can see the soft curve of both follwoing each other in synch. 
@@ -55,7 +56,7 @@ The interresting information to gain from these graphs is, how the population sl
 
 # ---------------STAGE 3-------------------
 
-# Machine Learning
+# Integrating AI and Machine Learning
 
 On stage 3 I wanted to add a small prediction model for the story. On the final page of the story, I have added a small input field, that accepts a "Year" parameter. It is connected to a notebook python project through tapby (running in an anaconda terminal).
 all connected methods can be seen on localhost:9004.
@@ -69,7 +70,7 @@ Ex. Year 2050 will have CO2ppm of ~449ppm
 
 The python code is available in the "Linear Calculation of CO2.ipynb" file.
 
-# AI Watson appplication
+## AI Watson appplication
 
 For the AI module I aimed to add a Watson Chat assistant, that could access https://api-docs.iqair.com/ which is a public api that you can call for you local weather forcast and air pollution. The intend was to also connect it to my Machinelearning program, allowing people to ask Watson bout the predicted PPM for decired year - Which would have been nice to include in my project. 
 
@@ -78,7 +79,8 @@ Sadly I could not manage to connect my Flask web application with my Watson assi
 Watson is able to call external API's and return handled data as a chat respond for the user. 
 The watson assisant "Zeue" Is created on IBM's cloud service https://eu-gb.assistant.watson.cloud.ibm.com .
 
-The Flask application has been hosted on Heroku, https://dashboard.heroku.com/apps/weather-app-adj
+The Flask application has been hosted on Heroku, https://weather-app-adj.herokuapp.com
+You can get data on the paths /api/weather/denmark
 
 Illustion of my Intent 
 
@@ -94,5 +96,45 @@ Illustion of my Intent
 With more envoinmental data, a watson app could be purposed for users to figure out what their situation is like when it comes to pollution in their country or their local area. Should the concider more or less habits of CO2 emmssion. Could be a fast way to help people get a more approachble door into more green habits. 
 
 # ---------------STAGE 4-------------------
+# Immersive Analytics and Visualisation
+
+For this particular subject - a fun idea for a visual data presentation could be in the form of Augmented Reality. 
+
+The idea would be using something like googel maps, or bing maps, as the main visual aspect. Then with mapped data about air pollution of a very localized area. You could add small bubbles to the streeview image so people could get information about their air quality.
+
+The google car, recently started recording this data while traveling the world recording street view, but only in a 2d fashion.
+
+![](unnamed.png)
+
+
+Adding a layer of augmented reality. You could create a more interactive presentation of the data, that makes it fun to explore what bubbles will show up where. Stuff like "Geoguesser" has become a big hit on the internet. It helps people learn about unfamiliar areas. This could help people educate themselves more about their local area. 
+
+The next three images is a prototype of how such an Augmented reality implimentation could look.
+
+The first Image is a stanard look from google maps. 
+![](Prototype1.png)
+
+Second image is my imagination of the AR implimentaion to google earth.
+![](Prototype2.png)
+
+How it would look in streetview.
+![](Prototype3.png)
+
+it could also make be implimanted with Virtual Reality or overlayed in future tech, like the infermous google glasses. 
+
+## Benefits of visualisation of data
+
+### Better exploration:
+- it is a lot easier to explore large data models with multiple dimensions in a 3D envionment. In a data model like the one below, you get the idea that the model has more dimensions to it, but with VR or other 3D visualization you would be able to get a better sense of all the "Data points" and not just those you can see in 2D
+![](MultiDiemnsional-Analysis.jpg) 
+
+### Enriched Experience and satisfaction
+As someone who enjoys playing around with data - it would be a lot more fun to be able to enteract with said data. In the proto type idea above - The satisfaction of walking out and exploring new data can be fun, and enrich the learning process. Not everyone finds a 2 dimensional graph that interresting. Human are vizual creatuers, the more we can see and experience the faster we learn and understand something.
+
+### Easier modelling, simulation and testing
+With more advance graphical options you can make a wide range of different moddels, and testing. But especially simulations has a lot to gain from more visual aspects. You also get a larger range of possibilities when it comes to moddeling your data in a precentable way.
+
+### Creating extended worlds.
+Lastly you can have some great fun, and make some great educational worlds. With fun and inovative ways to precent your data, and capture the readers attention. But with Simulation and data. In 3D supported engines you could simulate worlds, palnets and envionments for space travles as an exampel.  
 
 
